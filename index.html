@@ -1,33 +1,33 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-		<title>Puzzle-O-Matic!</title>
+  <title>Puzzle-O-Matic!</title>
 
-		<meta name="description" content="Automatic puzzle solving!">
-		<meta name="author" content="Nico Berio LeBeau, Logan Moore, Lucas Pickering">
+  <meta name="description" content="Automatic puzzle solving!">
+  <meta name="author" content="Nico Berio LeBeau, Logan Moore, Lucas Pickering">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/moon.css" id="theme">
 
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+  <!-- Printing and PDF exports -->
+  <script>
+   var link = document.createElement( 'link' );
+   link.rel = 'stylesheet';
+   link.type = 'text/css';
+   link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+   document.getElementsByTagName( 'head' )[0].appendChild( link );
+ </script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -42,7 +42,8 @@
 			<div class="slides">
 				<section>
 					<h1>Puzzle-O-Matic!</h1>
-					<h3>Automatic puzzle solving!</h3>
+					<h6>Automatic puzzle solving...</h6>
+          <h3>at the push of a button!</h3>
 					<p>
 						<small>Nico Berio LeBeau, Logan Moore, Lucas Pickering</small>
 					</p>
@@ -56,78 +57,97 @@
 					</p>
 				</section>
 
-				<section>
-					<h2>Inspiration</h2>
-					<p>Trying to complete a puzzle by hand</p>
-					<p>Wondered what the time complexity of us completing the puzzle by hand would be</p>
-					<p>"<b>Human Algorithm</b>"</p>
-				</section>
+        <section>
+          <section>
+           <h2>Inspiration</h2>
+           <p>Trying to complete a puzzle by hand</p>
+         </section>
+         <section>
+           <p>Wondered what the time complexity of us completing the puzzle by hand would be</p>
+           <p>"<b>Human Algorithm</b>"</p>
+         </section>
+       </section>
 
-				<section>
-					<h2>Hello There</h2>
-          <p>
-            $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-          </p>
-				</section>
+       <section>
+         <h2>Hello There</h2>
+         <h5>Quadratic Formula</h5>
+         <p>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$</p>
+      </section>
 
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim /*contenteditable*/>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+      <section>
+       <h2>Pretty Code</h2>
+       <pre><code class="hljs" data-trim /*contenteditable*/>
+        function linkify( selector ) {
+        if( supports3DTransforms ) {
 
-    var nodes = document.querySelectorAll( selector );
+        var nodes = document.querySelectorAll( selector );
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+        for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+        var node = nodes[i];
 
-      if( !node.className ) {
+        if( !node.className ) {
         node.className += ' roll';
       }
     }
   }
 }
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
+</code></pre>
+<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+</section>
 
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
+<section>
+ <h2>Clever Quotes</h2>
+ <p>
+  These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+  &ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
+</p>
+<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+  &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+  reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+</blockquote>
+</section>
 
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
+<section>
+ <h2>Keyboard Shortcuts</h2>
+ <table>
+   <tr>
+     <td>Next Slide</td>
+     <td><kbd>space</kbd></td>
+   </tr>
+   <tr>
+     <td>Speaker Notes</td>
+     <td><kbd>S</kbd></td>
+   </tr>
+   <tr>
+     <td>Fullscreen</td>
+     <td><kbd>F</kbd></td>
+   </tr>
+   <tr>
+     <td>Black Screen (Toggle)</td>
+     <td><kbd>.</kbd> or <kbd>B</kbd></td>
+   </tr>
+ </table>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+ <aside class="notes">
+  Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+</aside>
+</section>
 
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-					tanks a bunch &lt;3
-					</p>
-				</section>
+<section style="text-align: left;">
+ <h1>THE END</h1>
+ <p>
+   tanks a bunch &lt;3
+ </p>
+</section>
 
-			</div>
+</div>
 
-		</div>
+</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
 
-		<script>
+<script>
 
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
@@ -146,17 +166,17 @@ function linkify( selector ) {
 
 				// Optional reveal.js plugins
 				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true },
-          { src: 'plugin/math/math.js', async: true }
-				]
-			});
+       { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+       { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+       { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+       { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+       { src: 'plugin/zoom-js/zoom.js', async: true },
+       { src: 'plugin/notes/notes.js', async: true },
+       { src: 'plugin/math/math.js', async: true }
+       ]
+     });
 
-		</script>
+</script>
 
-	</body>
+</body>
 </html>
